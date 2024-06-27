@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="Stylesheet" href="style.css">
+   <!---- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">--->
+   <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo1-removebg-preview.png" </a>
+                <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="courses.html">COURSE</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Our Certification & Online Programs For 2022</h1>
+         </div>
+    </section>
+
+
+
+    <!---------blog--------->
+
+    <section class="blog-content">
+
+        <div class="row">
+
+            <div class="blog-left">
+                <img src="images/ghh.webp">
+                <h2> Our Certificate & Online Programs For 2022</h2>
+                <p> At the intersection of numbers and values, we challenge you to do more—to look beyond the bottom line and lead with principle and conviction. With the WashU Executive MBA, you’ll learn to rely on a values-based, data-driven decision-making framework. You’ll hone your individual leadership style though assessments, coursework and executive coaching. You’ll gain management expertise. And you’ll develop lasting professional relationships and collaboration.<br>
+                    Our EMBA program is designed for high-achieving, dedicated leaders. Classes meet once a month on Thursday, Friday and Saturday. In addition to class days, most students spend 10 to 15 hours each week completing assignments. Much of your out-of-class time is spent reading cases and preparing for class. And many student teams get together once a week. All the while, you’ll create a network of accomplished classmates, top-notch faculty, engaged WashU alumni and diverse business leaders.
+                    <br>
+                    Our EMBA program is designed for high-achieving, dedicated leaders. Classes meet once a month on Thursday, Friday and Saturday.
+                     In addition to class days, most students spend 10 to 15 hours each week completing assignments. Much of your out-of-class time is spent reading cases and preparing for class. And many student teams get together once a week. All the while, you’ll create a network of accomplished classmates, top-notch faculty, engaged WashU alumni and diverse business leaders.<br></p>
+                     
+                     
+                     
+                     <div class="comment-box">
+                        <h3> Leave a comment </h3>
+        
+                        <form class="comment-form">
+                            <input type="text" placeholder="Enter Name">
+                            <input type="email" placeholder="Enter Email">
+                            <textarea row="5" placeholder="Your Comment"></textarea>
+                            <button type="Submit" class=" hero-btn red-btn">Post Comment</button>  
+                        </form>
+                    </div>   
+             
+            </div>
+
+ 
+
+            <div class="blog-right">
+               <h3> Post Categories</h3>
+             <div> 
+                <span>Business Analytics</span>
+                <span>21</span>
+             </div>
+             <div> 
+                <span>Data Science</span>
+                <span>28</span>
+             </div>
+             <div> 
+                <span>Machine Learning</span>
+                <span>15</span>
+             </div>
+             <div> 
+                <span>Computer Science</span>
+                <span>34</span>
+             </div>
+             <div> 
+                <span>Auto CAD</span>
+                <span>42</span>
+             </div>
+             <div> 
+                <span>Journalism</span>
+                <span>22</span>
+             </div>
+             <div> 
+                <span>commerce</span>
+                <span>30</span>
+             </div>
+             </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!--------------------footer------------------------>
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>
+            "An educated mind can teach many"
+        </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-pinterest"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+        </div>
+        <p>Created by<i class="fa fa-heart-o"></i> Me</p>
+    </section>
+
+
+
+
+
+
+    <!---------javascript for toggle menu---------->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>

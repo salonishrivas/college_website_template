@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="Stylesheet" href="style.css">
+   <!---- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">--->
+   <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo1-removebg-preview.png" ></a>
+                <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="courses.html">COURSE</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars"aria-hidden="true" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>About Us</h1>
+         </div>
+        </section>
+
+    <!------------about us-------------->
+
+<section class="about-us">
+    
+    <div class="row">
+        <div class="about-col">
+            <h1>We are the World's Largest University</h1>
+            <p> The University of Michigan (U-M, UMich, or Michigan) is a public research university in Ann Arbor, Michigan. Founded in 1817 by an act of the old Michigan Territory, as the Catholepistemiad, or the University of Michigania, 20 years before the territory became a state, the university is Michigan's oldest.</p>
+            <a href="" class="hero-btn red-btn"> Explore More </a>
+        </div>
+        <div class="about-col">
+            <img src="images/business-meeting_gettyimages-603992138.jpg">
+        </div>
+    </div>
+</section>
+
+
+    <!------footer------->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>
+            "An educated mind can teach many"
+        </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-pinterest"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+        </div>
+        <p>Created by<i class="fa fa-heart-o"></i> Me</p>
+    </section>
+
+
+
+
+
+
+    <!---------javascript for toggle menu---------->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>
